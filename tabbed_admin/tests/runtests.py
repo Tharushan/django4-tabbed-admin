@@ -16,6 +16,11 @@ settings.configure(
     },
     ROOT_URLCONF='tabbed_admin.tests.urls',
     MIDDLEWARE_CLASSES=(),
+    MIDDLEWARE = [
+        'django.contrib.sessions.middleware.SessionMiddleware',
+        'django.contrib.auth.middleware.AuthenticationMiddleware',
+        'django.contrib.messages.middleware.MessageMiddleware'
+    ],
     TEMPLATE_CONTEXT_PROCESSORS=[
         'django.template.context_processors.request'
     ],
@@ -27,7 +32,8 @@ settings.configure(
             'OPTIONS': {
                 'context_processors': [
                     'django.template.context_processors.request',
-                    'django.contrib.auth.context_processors.auth'
+                    'django.contrib.auth.context_processors.auth',
+                    'django.contrib.messages.context_processors.messages'
                 ],
             },
         },
@@ -37,6 +43,7 @@ settings.configure(
         'django.contrib.contenttypes',
         'django.contrib.sessions',
         'django.contrib.admin',
+        'django.contrib.messages',
 
         'tabbed_admin',
         'tabbed_admin.tests'
