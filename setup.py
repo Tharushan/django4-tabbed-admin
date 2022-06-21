@@ -14,10 +14,10 @@ else:
 
 
 setup(
-    name='django-tabbed-admin',
-    version='1.0.4',
-    author='Guillaume Pousseo',
-    author_email='guillaumepousseo@revsquare.com',
+    name='django4-tabbed-admin',
+    version='1.0.5',
+    author='Guillaume Pousseo, Tharushan',
+    author_email='guillaumepousseo@revsquare.com, contact@tharushan.fr',
     description='Easily add tabs to django admin forms.',
     long_description=open('README.rst').read(),
     url='http://www.revsquare.com',
@@ -33,7 +33,6 @@ setup(
         'License :: OSI Approved :: BSD License',
         'Operating System :: OS Independent',
         'Programming Language :: Python',
-        'Programming Language :: Python :: 2.7',
-        'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.8',
     ],
 )

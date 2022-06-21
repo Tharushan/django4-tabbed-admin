@@ -40,13 +40,13 @@ From PyPi
 
 .. code-block::  shell-session
 
-    pip install django-tabbed-admin
+    pip install django4-tabbed-admin
 
 From Github
 
 .. code-block::  shell-session
 
-    https://github.com/omji/django-tabbed-admin#egg=tabbed_admin
+    https://github.com/Tharushan/django4-tabbed-admin#egg=tabbed_admin
 
 
 *****
@@ -205,7 +205,7 @@ LINKS
 *****
 
 Development:
-    https://github.com/omji/django-tabbed-admin
+    https://github.com/Tharushan/django4-tabbed-admin
 
 Package:
-    https://pypi.python.org/pypi/django-tabbed-admin
+    https://pypi.python.org/pypi/django4-tabbed-admin
