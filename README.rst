@@ -1,15 +1,15 @@
-.. image:: https://badge.fury.io/py/django-tabbed-admin.png
-  :target: http://badge.fury.io/py/django-tabbed-admin
+.. image:: https://badge.fury.io/py/django4-tabbed-admin.png
+  :target: http://badge.fury.io/py/django4-tabbed-admin
   :alt: PyPI version
   :height: 18px
 
-.. image::  https://travis-ci.org/omji/django-tabbed-admin.png?branch=master
-  :target: https://travis-ci.org/omji/django-tabbed-admin
+.. image::  https://travis-ci.org/Tharushan/django4-tabbed-admin.png?branch=master
+  :target: https://travis-ci.org/Tharushan/django4-tabbed-admin
   :alt: build-status
   :height: 18px
 
-.. image:: https://coveralls.io/repos/omji/django-tabbed-admin/badge.png?branch=master
-  :target: https://coveralls.io/r/omji/django-tabbed-admin
+.. image:: https://coveralls.io/repos/Tharushan/django4-tabbed-admin/badge.png?branch=master
+  :target: https://coveralls.io/r/Tharushan/django4-tabbed-admin
   :alt: coverage
   :height: 18px
 
@@ -19,16 +19,6 @@ Django tabbed admin
 
 Simple library to easilly add tabs to admin forms. It also allows users to re-order inlines and fieldsets.
 Django tabbed admin is compatible with django-grappelli and django-gipsy.
-
-.. image:: https://box.everhelper.me/attachment/256054/rSqCFM20d245qFlG5z64EgiOVpeuTU3P/341506-h1u4JrpaUan0tG2e/screen.png
-   :height: 400px
-   :width: 800 px
-
-Grappelli:
-
-.. image:: https://box.everhelper.me/attachment/256057/rSqCFM20d245qFlG5z64EgiOVpeuTU3P/341506-kQnZXKsO0pfrU4cI/screen.png
-   :height: 400px
-   :width: 800 px
 
 *******
 Install

@@ -15,7 +15,7 @@ else:
 
 setup(
     name='django4-tabbed-admin',
-    version='1.0.5',
+    version='1.0.6',
     author='Guillaume Pousseo, Tharushan',
     author_email='guillaumepousseo@revsquare.com, contact@tharushan.fr',
     description='Easily add tabs to django admin forms.',
